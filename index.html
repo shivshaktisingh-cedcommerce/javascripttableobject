@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div id="main_div_id">
+        <form onsubmit="add(event);">  
+            <table> 
+            <tr><td>PRODUCT ID</td><td><input type="number" required name="pro_id"/></td></tr>
+            <tr><td>PRODUCT NAME</td><td><input type="text" required name="pro_name"/></td></tr>
+            <tr><td>PRODUCT PRICE</td><td><input type="number" required name="pro_price"/></td></tr>
+            <tr><td colspan="2"><button type="submit" id="add_btn">ADD</button></td></tr>
+        </table>
+        </form>
+        <div id="result">
+
+        </div>
+
+    </div>
+    
+</body>
+</html>

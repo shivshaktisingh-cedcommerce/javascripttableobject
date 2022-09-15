@@ -1,0 +1,38 @@
+#main_div_id{
+    width:80%;
+    margin:auto;
+}
+p{
+    width:80%;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+table{
+    margin:auto;
+}
+table{
+    border-collapse: collapse;
+}
+td{
+    border:1px solid black;
+    padding:1vw;
+}
+input[type=text]{
+    width:20vw;
+    padding:1vw;
+    font-size:1.6vw;
+
+}
+input[type=number]{
+    width:20vw;
+    padding:1vw;
+    font-size:1.6vw;
+}
+#add_btn{
+    width:10vw;
+    min-height:3vw;
+    border-radius: 5px;
+    background-color: rgb(14, 76, 128);
+    color:white;
+}
